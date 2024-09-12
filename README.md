@@ -30,7 +30,6 @@ A página é composta por um **cabeçalho**, uma **imagem principal** e duas se�
 
 ## 🚀 Funcionalidades
 
-- **🔗 Navegação Simples e Intuitiva**: Links interativos que facilitam o acesso às principais categorias de produtos da L'Oréal Paris.
 - **📱 Responsividade**: A página se adapta a diferentes tamanhos de tela, garantindo uma experiência fluida em dispositivos móveis e desktops.
 - **🌟 Destaque de Produtos**: Seção visualmente atrativa para os produtos mais populares da marca, com imagens e descrições diretas.
 - **💡 Uso de Google Fonts**: A fonte personalizada "Kodchasan" melhora a estética e a legibilidade dos textos.
