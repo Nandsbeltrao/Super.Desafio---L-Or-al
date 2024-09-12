@@ -1,0 +1,119 @@
+@mixin flexbox(){
+    display: flex;
+    justify-content: space-between;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EFEEF3;
+    font-family: "Kodchasan", sans-serif;
+    width: 100%;
+}
+
+header{
+    background-color: #EFEEF3;
+    @include flexbox();
+    align-items: center;
+    font-size: 1.3rem;
+    position: fixed;
+    width: 100vw;
+    padding: 0.5rem;
+    
+    img{
+        margin: 0.5rem 4rem;
+        width: 8vw;
+        height: 5vh;
+
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    ul{
+        list-style: none;
+        @include flexbox();
+        margin-right: 6rem;
+
+       
+        li{
+            margin: 0 2rem;
+        }
+
+    }
+
+
+}
+
+main{
+    width: 100%;
+}
+
+
+figure{
+    img{
+        width: 100vw;
+    }
+
+}
+
+.primeira-sessao{
+    @include flexbox();
+    justify-content: center;
+
+    img{
+        width: 30vw;
+        height: 47vh;
+        margin-top: 3rem;
+        margin-right: 14rem;
+    }
+
+    div{
+        align-self: center;
+        text-align: center;
+
+
+        h1{
+            font-size: 2.2rem;
+            font-weight: 400;
+            margin-bottom: 9rem;
+        }
+
+        p{
+            width: 27vw;
+            font-size: 1.5rem;
+            margin-top: -7rem;
+            
+        }
+        
+    }
+}
+
+.segunda-sessao{
+    @include flexbox();
+    padding: 5rem;
+    
+    h2{
+        font-size: 1.8rem;
+        font-weight: 400;
+        width: 25vw;
+        margin-top: 7rem;
+        margin-left: 21rem;
+        margin-left: 15rem;
+    }
+
+    .container{
+        display: flex;
+        width: 80vh;
+        justify-content: space-around;
+        margin-right: 10rem;
+        margin-top: 3.8rem;      
+        
+    }
+}
