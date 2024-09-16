@@ -13,6 +13,8 @@ body{
     background-color: #EFEEF3;
     font-family: "Kodchasan", sans-serif;
     width: 100%;
+
+
 }
 
 header{
@@ -29,6 +31,12 @@ header{
         width: 8vw;
         height: 5vh;
 
+        @media(max-width: 600px){
+           width: 35vw;
+           height: 7vh;
+           align-items: center;
+        }
+
     }
 
     a{
@@ -44,10 +52,27 @@ header{
        
         li{
             margin: 0 2rem;
+
+            @media(max-width: 600px){
+                margin: 0.5rem;
+            }
+        }
+
+        @media(max-width: 600px){
+            flex-direction: column;
+            text-align: center;
+            margin: 2rem 1.5rem;
+            
         }
 
     }
 
+    @media(max-width: 600px){
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        
+    }
 
 }
 
@@ -61,6 +86,9 @@ figure{
         width: 100vw;
     }
 
+    @media(max-width: 600px){
+        display: none;
+    }
 }
 
 .primeira-sessao{
@@ -72,6 +100,15 @@ figure{
         height: 47vh;
         margin-top: 3rem;
         margin-right: 14rem;
+
+        @media(max-width: 600px){
+            width: 80vw;
+            height: 35vh;
+            margin: 3rem;
+            align-items: center;
+            
+            
+        }
     }
 
     div{
@@ -83,6 +120,11 @@ figure{
             font-size: 2.2rem;
             font-weight: 400;
             margin-bottom: 9rem;
+
+            @media(max-width:600px){
+                font-size:1.5rem ;
+                font-weight: 500;
+            }
         }
 
         p{
@@ -90,8 +132,16 @@ figure{
             font-size: 1.5rem;
             margin-top: -7rem;
             
+            @media(max-width:600px){
+                width: 100%;
+                font-size: 1.1rem;
+            }
         }
         
+    }
+
+    @media(max-width: 600px){
+        flex-direction: column;
     }
 }
 
@@ -104,8 +154,16 @@ figure{
         font-weight: 400;
         width: 25vw;
         margin-top: 7rem;
-        margin-left: 21rem;
-        margin-left: 15rem;
+        margin-left: 16rem;
+
+
+        @media(max-width:600px){
+                margin: 1rem 0;
+                width: 100%;
+                text-align: center;
+                font-size: 1.15rem;
+                font-weight: 500;
+        }
     }
 
     .container{
@@ -114,6 +172,17 @@ figure{
         justify-content: space-around;
         margin-right: 10rem;
         margin-top: 3.8rem;      
+
+        @media(max-width: 600px){
+            width: 100%;
+            flex-wrap: wrap;
+            margin: 2rem 0;
+            
+        }
         
+    }
+
+    @media (max-width:600px){
+        flex-direction: column;
     }
 }
